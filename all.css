@@ -1,0 +1,369 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol,
+ul {
+  list-style: none; }
+
+blockquote,
+q {
+  quotes: none; }
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+* {
+  font-family: 'Noto Sans';
+  font-weight: bold; }
+
+body {
+  width: 100%;
+  height: auto; }
+
+.wrap {
+  background-color: #F0F0F0;
+  width: 1280px;
+  height: auto;
+  margin: 0 auto; }
+  .wrap .header {
+    width: 1110px;
+    height: auto;
+    margin: 40px 85px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .wrap .header .placeselect {
+      width: 350px;
+      height: 115px;
+      margin-right: 20px; }
+      .wrap .header .placeselect h1 {
+        font-size: 40px;
+        text-align: left;
+        width: 350px;
+        height: 59px;
+        margin-top: 30px; }
+      .wrap .header .placeselect > select {
+        height: 56px;
+        border: 3px black solid;
+        width: 350px; }
+    .wrap .header .degreetable {
+      display: inline-block;
+      width: 730px;
+      margin-top: 32px; }
+      .wrap .header .degreetable table {
+        border-collapse: collapse; }
+      .wrap .header .degreetable th,
+      .wrap .header .degreetable td {
+        width: 121.67px;
+        height: 110px;
+        border: 3px solid black;
+        text-align: center;
+        padding: 4px 0px 4px 0px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box; }
+      .wrap .header .degreetable th {
+        height: 54px; }
+      .wrap .header .degreetable td {
+        height: 56px; }
+  .wrap .main {
+    width: 1110px;
+    height: auto;
+    margin: 32px 85px; }
+    .wrap .main .dataInfo {
+      width: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      .wrap .main .dataInfo .location {
+        width: 15%;
+        height: 54px;
+        font-size: 36px;
+        margin: 0; }
+      .wrap .main .dataInfo .line {
+        border-top: 3px dotted black;
+        width: 1100px;
+        height: 10px;
+        margin-top: 20px; }
+      .wrap .main .dataInfo .time {
+        width: 30%;
+        height: 22px;
+        margin-top: 10px;
+        padding-left: 13px;
+        font-size: 16px; }
+    .wrap .main .airInfo {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      .wrap .main .airInfo .infoDetail {
+        width: 350px;
+        height: 535px;
+        font-weight: bold; }
+        .wrap .main .airInfo .infoDetail .detail {
+          width: 100%;
+          margin-top: 7px;
+          border: 2px solid black; }
+          .wrap .main .airInfo .infoDetail .detail tr {
+            font-size: 18px;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+            margin: 10px 20px;
+            border-bottom: 2px solid black; }
+          .wrap .main .airInfo .infoDetail .detail tr:last-child {
+            border: none; }
+          .wrap .main .airInfo .infoDetail .detail td {
+            padding: 15px; }
+            .wrap .main .airInfo .infoDetail .detail td span {
+              font-size: 12px; }
+            .wrap .main .airInfo .infoDetail .detail td sub {
+              vertical-align: bottom;
+              font-size: 8px; }
+          .wrap .main .airInfo .infoDetail .detail .number {
+            float: right; }
+          .wrap .main .airInfo .infoDetail .detail .detailTitle {
+            margin: 0; }
+            .wrap .main .airInfo .infoDetail .detail .detailTitle td {
+              border-right: 2px solid #000;
+              width: 142px;
+              height: 32px;
+              font-size: 30px;
+              text-align: center; }
+            .wrap .main .airInfo .infoDetail .detail .detailTitle .AQI {
+              border: none; }
+      .wrap .main .airInfo .infoTable {
+        width: 745px;
+        margin-left: 15px; }
+        .wrap .main .airInfo .infoTable .infoList {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+          -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+          justify-content: space-between; }
+          .wrap .main .airInfo .infoTable .infoList li {
+            margin: 1%; }
+            .wrap .main .airInfo .infoTable .infoList li:hover {
+              position: relative;
+              top: 2px;
+              color: red; }
+          .wrap .main .airInfo .infoTable .infoList .infoBox {
+            width: 330px;
+            border: 1px solid black;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            height: 97px;
+            font-size: 30px;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center; }
+            .wrap .main .airInfo .infoTable .infoList .infoBox a {
+              text-decoration: none; }
+              .wrap .main .airInfo .infoTable .infoList .infoBox a:hover {
+                color: red;
+                font-size: 40px; }
+  .wrap .footer {
+    background-color: black;
+    width: 100%;
+    height: 34px;
+    margin-top: 90px;
+    padding: 10px 20px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+    .wrap .footer p {
+      color: #fff; }
+
+.loading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  bottom: -20px;
+  right: 0;
+  z-index: 100;
+  position: absolute;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(105, 240, 174, 0.5)), color-stop(#69F0AE), to(0.5)), -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fff));
+  background-image: -webkit-linear-gradient(rgba(105, 240, 174, 0.5), #69F0AE, 0.5), -webkit-linear-gradient(#fff, #fff);
+  background-image: -o-linear-gradient(rgba(105, 240, 174, 0.5), #69F0AE, 0.5), -o-linear-gradient(#fff, #fff);
+  background-image: linear-gradient(rgba(105, 240, 174, 0.5), #69F0AE, 0.5), linear-gradient(#fff, #fff); }
+
+.lds-ring {
+  display: inline-block;
+  position: relative;
+  width: 100px;
+  height: 100px; }
+  .lds-ring div {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    margin: 6px;
+    border: 6px solid black;
+    border-radius: 50%;
+    -webkit-animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #49beb7 transparent transparent transparent; }
+    .lds-ring div:nth-child(1) {
+      -webkit-animation-delay: -0.45s;
+      animation-delay: -0.45s; }
+    .lds-ring div:nth-child(2) {
+      -webkit-animation-delay: -0.3s;
+      animation-delay: -0.3s; }
+    .lds-ring div:nth-child(3) {
+      -webkit-animation-delay: -0.15s;
+      animation-delay: -0.15s; }
+
+@-webkit-keyframes lds-ring {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+@keyframes lds-ring {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
