@@ -6,6 +6,7 @@ var degree = document.querySelector('.degree');
 var time = document.querySelector('.time');
 var detail = document.querySelectorAll('.detail .number');
 var detailTitle = document.querySelector('.detailTitle');
+
 var infoList = document.querySelector('.infoList');
 
 
@@ -32,7 +33,7 @@ infoList.addEventListener('click', function (e) {
 
 
 //catch data
-var url = 'https://cors-anywhere.herokuapp.com/http://opendata.epa.gov.tw/webapi/Data/REWIQA/?format=json';
+var url = 'https://script.google.com/macros/s/AKfycbysO5ektpVfu6f1dqVygmD8l8QGaOthc5GFPWsv17YM4YP3hGw/exec?url=http://opendata.epa.gov.tw/webapi/Data/REWIQA/?format=json';
 fetch(url, {})
     .then((response) => {
         return response.json();

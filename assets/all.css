@@ -367,3 +367,99 @@ body {
   100% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg); } }
+
+@media (max-width: 375px) {
+  .wrap {
+    width: 300px; } }
+
+@media (max-width: 414px) {
+  .wrap {
+    width: 400px; } }
+
+@media (max-width: 575px) {
+  .wrap {
+    width: 500px; }
+    .wrap .header {
+      width: 370px; } }
+
+@media (max-width: 768px) {
+  .wrap {
+    width: 700px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    .wrap .header {
+      width: 530px; }
+      .wrap .header h1 {
+        font-size: 35px; }
+      .wrap .header .placeselect > select {
+        font-size: 30px; }
+    .wrap .main {
+      width: 600px;
+      margin: 20px auto; }
+      .wrap .main .dataInfo {
+        width: 100%; }
+      .wrap .main .airInfo {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse; }
+        .wrap .main .airInfo .infoDetail {
+          margin: 0 auto; }
+        .wrap .main .airInfo .infoTable {
+          width: 600px;
+          margin: 0 auto; }
+          .wrap .main .airInfo .infoTable .infoList {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center; }
+            .wrap .main .airInfo .infoTable .infoList .infoBox {
+              width: 230px; } }
+
+@media (max-width: 991px) {
+  .wrap {
+    width: 900px; } }
+
+@media (max-width: 1024px) {
+  .wrap {
+    width: 1000px; }
+    .wrap .header {
+      width: 854px; }
+      .wrap .header .placeselect > select {
+        font-size: 35px; }
+    .wrap .main {
+      width: 900px; }
+      .wrap .main .dataInfo {
+        width: 100%; }
+        .wrap .main .dataInfo .location {
+          width: 120px;
+          padding-top: 10px;
+          font-size: 28px;
+          -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+        .wrap .main .dataInfo .line {
+          width: 530px; }
+      .wrap .main .airInfo .infoDetail {
+        margin: 0 auto; }
+      .wrap .main .airInfo .infoTable {
+        width: 500px;
+        margin: 0 auto; }
+        .wrap .main .airInfo .infoTable .infoList {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center; }
+          .wrap .main .airInfo .infoTable .infoList .infoBox {
+            width: 230px; } }

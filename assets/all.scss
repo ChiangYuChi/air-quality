@@ -374,3 +374,216 @@ body {
         transform: rotate(360deg);
     }
 }
+
+
+
+
+
+
+
+@media (max-width: 375px) {
+    .wrap {
+        width: 300px;
+
+    }
+}
+
+@media (max-width: 414px) {
+    .wrap {
+        width: 400px;
+
+    }
+}
+
+@media (max-width: 575px) {
+    .wrap {
+        width: 500px;
+
+
+        .header {
+            width: 370px;
+
+
+        }
+
+
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    .wrap {
+        width: 700px;
+        display: flex;
+        flex-direction: column;
+
+        .header {
+            width: 530px;
+
+
+
+
+            h1 {
+                font-size: 35px;
+            }
+
+
+
+            .placeselect {
+                >select {
+                    font-size: 30px;
+                }
+
+            }
+
+        }
+
+        .main {
+            width: 600px;
+
+
+            margin: 20px auto;
+
+
+            .dataInfo {
+                width: 100%;
+
+
+
+
+
+
+            }
+
+
+            .airInfo {
+                display: flex;
+                flex-direction: column-reverse;
+
+                .infoDetail {
+                    margin: 0 auto;
+                }
+
+                .infoTable {
+                    width: 600px;
+                    margin: 0 auto;
+
+                    .infoList {
+                        display: flex;
+                        justify-content: center;
+
+                        .infoBox {
+                            width: 230px;
+                        }
+                    }
+
+                }
+
+
+            }
+
+        }
+
+
+    }
+}
+
+
+@media (max-width: 991px) {
+    .wrap {
+        width: 900px;
+
+        // .header {
+        //     width: 730px;
+
+        // }
+    }
+}
+
+@media(max-width:1024px) {
+    .wrap {
+        width: 1000px;
+
+
+
+
+
+
+
+        .header {
+            width: 854px;
+
+            .placeselect {
+                >select {
+                    font-size: 35px;
+                }
+
+            }
+
+        }
+
+        .main {
+            width: 900px;
+
+
+
+            .dataInfo {
+                width: 100%;
+
+
+                .location {
+                    width: 120px;
+                    padding-top: 10px;
+
+                    font-size: 28px;
+                    box-sizing: border-box;
+
+
+                }
+
+                .line {
+                    width: 530px;
+
+                }
+
+
+
+
+
+            }
+
+            .airInfo {
+
+
+
+                .infoDetail {
+
+                    margin: 0 auto;
+                }
+
+
+
+                .infoTable {
+                    width: 500px;
+                    margin: 0 auto;
+
+                    .infoList {
+                        display: flex;
+                        justify-content: center;
+
+                        .infoBox {
+                            width: 230px;
+                        }
+                    }
+
+                }
+
+
+            }
+        }
+
+
+
+    }
+}
